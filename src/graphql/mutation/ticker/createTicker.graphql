@@ -1,0 +1,5 @@
+mutation CreateTicker($applicationId: String!, $input: CreateTickerInput!){
+    createTicker(applicationId: $applicationId, input: $input){
+        ...SaveTickerFragment
+    }
+}

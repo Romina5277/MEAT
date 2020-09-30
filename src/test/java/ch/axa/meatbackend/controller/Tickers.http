@@ -1,0 +1,17 @@
+### Happy Flow mit einer Message###
+GET http://localhost:8080/rest/tickers/GO/1
+Accept: application/json
+
+### Happy Flow ohne Meldung ###
+GET http://localhost:8080/rest/tickers/GO/2
+Accept: application/json
+
+### Unbekannte Locations ###
+GET http://localhost:8080/rest/tickers/GO/3
+Accept: application/json
+
+### Unbekannte Applikation ###
+GET http://localhost:8080/rest/tickers/BLUB/1
+Accept: application/json
+
+###

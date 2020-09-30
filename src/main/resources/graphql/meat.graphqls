@@ -1,0 +1,115 @@
+type Query {
+    applications: [Application!]!
+    application(id: String!): Application
+    location(applicationId: String!, locationId: String!): Location
+    ticker(applicationId: String!, tickerId: String!): Ticker
+    template(applicationId: String!, templateId: String!): Ticker
+    message(applicationId: String!, tickerId: String!, messageId: String!): Message
+}
+
+type Mutation {
+    createApplication(input: ApplicationInput!): Application
+    editApplication(input: EditApplicationInput!): Application
+    deleteApplication(applicationId: String!): Int
+    createLocation(applicationId: String!, input: CreateLocationInput!): Location
+    editLocation(applicationId: String!, input: EditLocationInput!): Location
+    deleteLocation(applicationId: String!, locationId: String!): Boolean
+    createTicker(applicationId: String!, input: CreateTickerInput!): Ticker
+    editTicker(applicationId: String!, input: EditTickerInput!): Ticker
+    deleteTicker(applicationId: String!, tickerId: String!): Boolean
+    createTemplate(applicationId: String!, input: CreateTickerInput!): Ticker
+    editTemplate(applicationId: String!, input: EditTickerInput!): Ticker
+    deleteTemplate(applicationId: String!, templateId: String!): Boolean
+}
+
+type Application {
+    id: String!
+    code: String!
+    name: String!
+    locations: [Location!]!
+    tickers: [Ticker!]!
+    templates: [Ticker!]!
+}
+
+type Location {
+    id: String!
+    name: String!
+    locationnumber: Int!
+}
+
+type Ticker {
+    id: String!
+    title: String!
+    timeFrom: String!
+    timeTo: String!
+    locationnumbers: [Int!]!
+    messages: [Message!]!
+}
+
+type Template {
+    id: String!
+    title: String!
+    timeFrom: String!
+    timeTo: String!
+    locationnumbers: [Int!]!
+    messages: [Message!]!
+}
+
+type Message {
+    id: String!
+    title: String!
+    text: String!
+    language: String!
+}
+
+input ApplicationInput {
+    code: String!
+    name: String!
+}
+
+input EditApplicationInput {
+    id: String!
+    code: String!
+    name: String!
+}
+
+input CreateLocationInput {
+    name: String!
+    locationnumber: Int!
+}
+
+input EditLocationInput {
+    id: String!
+    name: String!
+    locationnumber: Int!
+}
+
+input CreateTickerInput {
+    title: String!
+    timeFrom: String!
+    timeTo: String!
+    locationnumbers: [Int!]!
+    messages: [CreateMessageInput!]!
+}
+
+input EditTickerInput {
+    id: String!
+    title: String!
+    timeFrom: String!
+    timeTo: String!
+    messages: [EditMessageInput!]!
+    locationnumbers: [Int!]!
+}
+
+input CreateMessageInput {
+    text: String!
+    title: String
+    language: String!
+}
+
+input EditMessageInput {
+    id: String!
+    text: String!
+    language: String!
+    title: String!
+}

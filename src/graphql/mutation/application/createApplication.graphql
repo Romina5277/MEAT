@@ -1,0 +1,5 @@
+mutation CreateApplication($input: ApplicationInput!){
+    createApplication(input: $input){
+        ...SaveApplicationFragment
+    }
+}

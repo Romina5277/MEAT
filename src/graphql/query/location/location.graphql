@@ -1,0 +1,5 @@
+query Location($applicationId: String!, $locationId: String!){
+    location(applicationId: $applicationId, locationId: $locationId){
+        ...LocationData
+    }
+}

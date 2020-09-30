@@ -1,0 +1,35 @@
+{
+  "graphql": {
+    "load": "loading..."
+  },
+
+  "searching": {
+    "search": "search",
+    "searchItem": "search item"
+  },
+
+  "editing": {
+    "edit": "Edit"
+  },
+
+  "language": {
+    "de": "de",
+    "en": "en",
+    "fr": "fr",
+    "it": "it"
+  },
+
+  "application": {
+    "title": "application",
+    "code": "code:",
+    "name": "name:"
+  },
+
+  "template": {
+    "title": "template"
+  },
+
+  "ticker": {
+    "new": "new ticker"
+  }
+}

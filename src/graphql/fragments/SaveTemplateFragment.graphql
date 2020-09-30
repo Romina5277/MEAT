@@ -1,0 +1,13 @@
+fragment SaveTemplateData on Ticker {
+    id
+    title
+    timeFrom
+    timeTo
+    locationnumbers
+    messages {
+        id
+        title
+        text
+        language
+    }
+}

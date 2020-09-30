@@ -1,0 +1,5 @@
+query Message($applicationId: String!, $tickerId: String!, $messageId: String!){
+    message(applicationId: $applicationId, tickerId: $tickerId, messageId: $messageId){
+        ...MessageData
+    }
+}

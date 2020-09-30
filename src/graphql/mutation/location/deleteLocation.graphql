@@ -1,0 +1,3 @@
+mutation DeleteLocation($applicationId: String!, $locationId: String!){
+    deleteLocation(applicationId: $applicationId, locationId: $locationId)
+}

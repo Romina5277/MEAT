@@ -1,0 +1,4 @@
+fragment SaveApplicationFragment on Application {
+    code
+    name
+}

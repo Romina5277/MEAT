@@ -1,0 +1,5 @@
+mutation CreateLocation($applicationId: String!, $input: CreateLocationInput!){
+    createLocation(applicationId: $applicationId, input: $input){
+        ...LocationData
+    }
+}

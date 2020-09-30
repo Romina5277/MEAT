@@ -1,0 +1,3 @@
+mutation DeleteTicker($applicationId: String!, $tickerId: String!){
+    deleteTicker(applicationId: $applicationId, tickerId: $tickerId)
+}

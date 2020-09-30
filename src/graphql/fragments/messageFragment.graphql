@@ -1,0 +1,6 @@
+fragment MessageData on Message {
+    id
+    title
+    text
+    language
+}

@@ -1,0 +1,5 @@
+query Application($id: String!){
+    application(id: $id){
+        ...ApplicationData
+    }
+}

@@ -1,0 +1,5 @@
+mutation EditTemplate($applicationId: String!, $input: EditTickerInput!){
+    editTemplate(applicationId: $applicationId, input: $input){
+        ...SaveTemplateData
+    }
+}

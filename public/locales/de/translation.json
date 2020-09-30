@@ -1,0 +1,60 @@
+{
+  "graphql": {
+    "load": "Ladevorgang..."
+  },
+
+  "searching": {
+    "search": "Suchen",
+    "searchItem": "Suchbegriff"
+  },
+
+  "editing": {
+    "edit": "Bearbeiten"
+  },
+
+  "language": {
+    "de": "de",
+    "en": "en",
+    "fr": "fr",
+    "it": "it"
+  },
+
+  "form": {
+    "title": "Titel",
+    "timeFrom": "Von",
+    "timeTo": "Bis",
+    "application": "Applikation",
+    "location": "Location",
+    "language": "Sprache",
+    "texts": "Texte",
+    "text": "Text",
+    "code": "Kürzel",
+    "name": "Name",
+    "stop": "Abbrechen",
+    "save": "Speichern",
+    "saveAsTicker": "Als Ticker speichern",
+    "saveAsTemplate": "Als Vorlage speichern",
+    "new": "Neu",
+    "newText": "Neuer Text"
+  },
+
+  "application": {
+    "title": "Applikation",
+    "code": "Kürzel:",
+    "name": "Name:"
+  },
+
+  "location": {
+    "title": "Locations"
+  },
+
+  "template": {
+  },
+
+  "ticker": {
+    "new": "Neue Meldung",
+    "titleTicker": "Ticker",
+    "titleTemplate": "Vorlage",
+    "title": "Ticker / Vorlage"
+  }
+}

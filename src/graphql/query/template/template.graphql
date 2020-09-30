@@ -1,0 +1,5 @@
+query Template($applicationId: String!, $templateId: String!){
+    template(applicationId: $applicationId, templateId: $templateId){
+        ...TemplateData
+    }
+}

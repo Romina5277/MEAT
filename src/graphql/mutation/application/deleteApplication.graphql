@@ -1,0 +1,3 @@
+mutation DeleteApplication($applicationId: String!){
+    deleteApplication(applicationId: $applicationId)
+}

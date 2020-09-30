@@ -1,0 +1,3 @@
+mutation DeleteTemplate($applicationId: String!, $templateId: String!){
+    deleteTemplate(applicationId: $applicationId, templateId: $templateId)
+}

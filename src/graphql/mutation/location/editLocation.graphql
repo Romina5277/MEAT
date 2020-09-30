@@ -1,0 +1,5 @@
+mutation EditLocation($applicationId: String!, $input: EditLocationInput!){
+    editLocation(applicationId: $applicationId, input: $input){
+        ...LocationData
+    }
+}

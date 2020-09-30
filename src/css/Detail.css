@@ -1,0 +1,62 @@
+#Title {
+    font-size: 50px;
+    text-align: center;
+    margin-right: 20%;
+}
+
+#SubTitle {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+#AppplicationDetailApp {
+    border: solid;
+    position: fixed;
+    width: 44%;
+    height: 31%;
+    margin-left: 5%;
+}
+
+#AppplicationDetailTicker {
+    border: solid;
+    position: fixed;
+    width: 44%;
+    height: 31%;
+    margin-left: 5%;
+}
+
+#LocationDetail {
+    border: solid;
+    position: fixed;
+    width: 44%;
+    height: 32%;
+    margin-left: 5%;
+    margin-top: 16%;
+}
+
+#MessageDetail {
+    border: solid;
+    position: fixed;
+    right: 0%;
+    width: 44%;
+    height: 66%;
+    margin-right: 5%;
+}
+
+#MessagetextDetail {
+    border: solid;
+    position: fixed;
+    right: 0%;
+    width: 44%;
+    height: 66%;
+    margin-right: 5%;
+}
+
+#applicationDetailAppOverAll {
+    padding: 1% 6% 0% 10%;
+}
+
+#buttonBearbeiten {
+    float: right;
+}

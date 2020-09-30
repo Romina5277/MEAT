@@ -1,0 +1,41 @@
+#overAll {
+    border-style: solid;
+    margin: 2%;
+    padding: 2%;
+    height: 75%;
+    width: 95%;
+    position: fixed;
+}
+
+#searchButton{
+    text-align: center;
+}
+
+#applicationsTable {
+    overflow-y: auto;
+    position: fixed;
+    height: 45%;
+    width: 90%;
+}
+
+#tdWithCode {
+    width: 15%;
+}
+
+#tdWithName {
+
+}
+
+#tdWithImg {
+    float: right;
+    width: 10%;
+}
+
+.muellIcon {
+    width: 35%;
+    height: 45%;
+}
+
+Link {
+    color: black;
+}

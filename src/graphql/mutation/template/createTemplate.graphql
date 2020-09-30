@@ -1,0 +1,5 @@
+mutation CreateTemplate($applicationId: String!, $input: CreateTickerInput!){
+    createTemplate(applicationId: $applicationId, input: $input){
+        ...SaveTemplateData
+    }
+}

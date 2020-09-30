@@ -1,0 +1,31 @@
+fragment ApplicationData on Application {
+    id
+    code
+    name
+    locations {
+        name
+        locationnumber
+    }
+    tickers {
+        id
+        title
+        timeFrom
+        timeTo
+        messages {
+            id
+            text
+            language
+        }
+    }
+    templates {
+        id
+        title
+        timeFrom
+        timeTo
+        messages {
+            id
+            text
+            language
+        }
+    }
+}

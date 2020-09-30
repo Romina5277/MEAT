@@ -1,0 +1,5 @@
+query Ticker($applicationId: String!, $tickerId: String!){
+    ticker(applicationId: $applicationId, tickerId: $tickerId){
+        ...TickerData
+    }
+}

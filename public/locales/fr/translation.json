@@ -1,0 +1,35 @@
+{
+  "graphql": {
+    "load": "charger..."
+  },
+
+  "searching": {
+    "search": "chercher",
+    "searchItem": "terme de recherche"
+  },
+
+  "editing": {
+    "edit": "modifier"
+  },
+
+  "language": {
+    "de": "de",
+    "en": "en",
+    "fr": "fr",
+    "it": "it"
+  },
+
+  "application": {
+    "title": "application",
+    "code": "sigle:",
+    "name": "nom:"
+  },
+
+  "template": {
+    "title": "modèle"
+  },
+
+  "ticker": {
+    "new": "nouveau message"
+  }
+}

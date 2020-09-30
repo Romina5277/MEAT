@@ -1,0 +1,4 @@
+fragment LocationData on Location {
+    name
+    locationnumber
+}

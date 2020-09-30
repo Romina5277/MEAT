@@ -1,0 +1,13 @@
+fragment TemplateData on Ticker {
+    id
+    title
+    locationnumbers
+    timeFrom
+    timeTo
+    messages{
+        id
+        title
+        text
+        language
+    }
+}
